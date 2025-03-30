@@ -1,4 +1,4 @@
-# QR Code Generator Chrome Extension
+# Chrome QR Code Generator Extension
 
 這是一個Chrome瀏覽器擴充功能，可以在網頁右下角顯示當前網頁的二維碼。
 
@@ -24,3 +24,14 @@
 
 - 請確保已下載所有必要文件（manifest.json、content.js、styles.css、qrcode.min.js）
 - 如果網站沒有favicon，將無法顯示網站Logo 
+
+## 專案結構
+
+chrome-qr-code-extension/
+├── manifest.json        // 擴充功能配置文件
+├── content.js          // 主要功能實現
+├── styles.css          // 樣式表
+├── qrcode.min.js       // QR碼生成庫
+├── icon48.png          // 小圖標
+├── icon128.png         // 大圖標
+└── README.md           // 說明文件 
